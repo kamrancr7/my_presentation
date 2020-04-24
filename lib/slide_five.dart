@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'my_widgets/my_bullet_widget.dart';
 
 class SlideFive extends StatelessWidget {

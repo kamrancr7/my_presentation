@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'my_widgets/my_text_widget.dart';
 
-class SlideThree extends StatelessWidget {
+class SlideEleven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,11 +16,11 @@ class SlideThree extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 200,
-                    width: 200,
+                    height: 170,
+                    width: 170,
                     child: Image.asset('assets/logo2.png'),
                   ),
-                  Text("Everything is a Widget",
+                  Text("Thank You",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           color: Colors.white,
@@ -33,6 +33,7 @@ class SlideThree extends StatelessWidget {
           Container(
             width: MediaQuery.of(context).size.width * 0.65,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 SizedBox(height: MediaQuery.of(context).size.width * 0.04),
                 Row(
@@ -53,44 +54,46 @@ class SlideThree extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.width * 0.04),
+                SizedBox(height: MediaQuery.of(context).size.width * 0.13),
                 Padding(
                   padding: const EdgeInsets.only(left: 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      MyTextWidget(
-                        textValue: 'In Flutter everything is a Widget (Text, Button, Image...).',
+                      Text(
+                        'Github Link',
+                        style: TextStyle(fontSize: 28),
+                      ),
+                      Text(
+                        'https://github.com/kamrancr7/my_presentation',
+                        style: TextStyle(
+                          fontSize: 24,
+                          color: Colors.blue,
+                          decoration: TextDecoration.underline,
+                        ),
                       ),
                       SizedBox(
-                        height: 20,
+                        height: 10,
                       ),
-                      MyTextWidget(
-                        textValue: 'Widgets are the basic building blocks of a Flutter app\'s user interface.',
+                      Text(
+                        'Medium Link',
+                        style: TextStyle(fontSize: 28),
                       ),
-                      SizedBox(
-                        height: 20,
+                      Text(
+                        'https://medium.com/rive/building-an-interactive-login-screen-with-flare-flutter-749db628bb51',
+                        style: TextStyle(
+                          fontSize: 24,
+                          color: Colors.blue,
+                          decoration: TextDecoration.underline,
+                        ),
                       ),
-                      MyTextWidget(
-                        textValue: 'Widgets arrange in a hierarchical order to be displayed onto the screen.',
+                      SizedBox(height: 30,),
+                      Center(
+                        child: Text(
+                          'Stay Safe Stay Home',
+                          style: TextStyle(fontSize: 50,color: Colors.red),
+                        ),
                       ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Row(
-                        children: [
-                          Container(
-                            width: 500,
-                            height: 500,
-                            child: Image.asset('assets/app_diagram.png'),
-                          ),
-                          Container(
-                            width: 500,
-                            height: 500,
-                            child: Image.asset('assets/flow_diagram.png'),
-                          ),
-                        ],
-                      )
                     ],
                   ),
                 )

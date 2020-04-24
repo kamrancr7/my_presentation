@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_presentation/slide_eight.dart';
+import 'package:my_presentation/slide_eleven.dart';
 import 'package:my_presentation/slide_five.dart';
 import 'package:my_presentation/slide_four.dart';
 import 'package:my_presentation/slide_nine.dart';
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
           SlideSeven(),
           SlideEight(),
           SlideNine(),
-          SlideTen()
+          SlideTen(),
+          SlideEleven()
         ],
       ),
       debugShowCheckedModeBanner: false,

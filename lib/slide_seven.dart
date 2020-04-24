@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'my_widgets/my_bullet_widget.dart';
 import 'my_widgets/my_text_widget.dart';
 
 class SlideSeven extends StatelessWidget {
