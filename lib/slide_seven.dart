@@ -63,7 +63,7 @@ class SlideSeven extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.height * 0.08),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.06),
                 MyTextWidget(
                   textValue: 'Expands the Bridge concept.',
                 ),

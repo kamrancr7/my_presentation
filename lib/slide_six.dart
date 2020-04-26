@@ -82,7 +82,7 @@ class SlideSix extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.width * 0.08),
+                SizedBox(height: MediaQuery.of(context).size.width * 0.06),
                 MyTextWidget(
                   textValue: 'It\'s a Web Site.',
                 ),
