@@ -39,7 +39,7 @@ class SlideTen extends StatelessWidget {
     var chartWidget = Padding(
       padding: EdgeInsets.all(32.0),
       child: SizedBox(
-        height: 600.0,
+        height: MediaQuery.of(context).size.height/1.7,
         child: chart,
       ),
     );

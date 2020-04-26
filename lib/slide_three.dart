@@ -80,13 +80,13 @@ class SlideThree extends StatelessWidget {
                       Row(
                         children: [
                           Container(
-                            width: 500,
-                            height: 500,
+                            width: MediaQuery.of(context).size.width/4,
+                            height: MediaQuery.of(context).size.width/4,
                             child: Image.asset('assets/app_diagram.png'),
                           ),
                           Container(
-                            width: 500,
-                            height: 500,
+                            width: MediaQuery.of(context).size.width/4,
+                            height: MediaQuery.of(context).size.width/4,
                             child: Image.asset('assets/flow_diagram.png'),
                           ),
                         ],

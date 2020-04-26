@@ -20,7 +20,7 @@ class SlideSix extends StatelessWidget {
                     children: [
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset('assets/corodova_logo.png'),
                       ),
                       SizedBox(
@@ -28,7 +28,7 @@ class SlideSix extends StatelessWidget {
                       ),
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset(
                           'assets/ionic_logo.png',
                           color: Colors.purple,
@@ -39,7 +39,7 @@ class SlideSix extends StatelessWidget {
                       ),
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset('assets/phonegap_logo.png'),
                       ),
                     ],

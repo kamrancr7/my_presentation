@@ -20,7 +20,7 @@ class SlideFour extends StatelessWidget {
                     children: [
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset('assets/logo2.png'),
                       ),
                       SizedBox(
@@ -28,7 +28,7 @@ class SlideFour extends StatelessWidget {
                       ),
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset('assets/heart.png'),
                       ),
                       SizedBox(
@@ -36,7 +36,7 @@ class SlideFour extends StatelessWidget {
                       ),
                       Container(
                         height: 170,
-                        width: 170,
+                        width: MediaQuery.of(context).size.width/10,
                         child: Image.asset('assets/dart_logo.png'),
                       ),
                     ],
