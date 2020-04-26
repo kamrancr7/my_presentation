@@ -63,7 +63,7 @@ class SlideSix extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                SizedBox(height: MediaQuery.of(context).size.width * 0.04),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.03),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

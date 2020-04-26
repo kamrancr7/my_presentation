@@ -53,7 +53,7 @@ class SlideFive extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.width * 0.12),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.12),
                 Padding(
                   padding: const EdgeInsets.only(left: 20),
                   child: Column(
