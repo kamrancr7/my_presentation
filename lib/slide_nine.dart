@@ -41,7 +41,7 @@ class SlideNine extends StatelessWidget {
             width: MediaQuery.of(context).size.width * 0.65,
             child: Column(
               children: <Widget>[
-                SizedBox(height: MediaQuery.of(context).size.width * 0.04),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.04),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

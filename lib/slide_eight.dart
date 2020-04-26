@@ -63,7 +63,7 @@ class SlideEight extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.height * 0.09),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.08),
                 MyTextWidget(
                   textValue: 'Removes the Bridge concept.',
                 ),
